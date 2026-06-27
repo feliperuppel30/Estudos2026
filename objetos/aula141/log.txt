@@ -1,0 +1,49 @@
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+Error: qqer coisa (LogFileMixin)
+Sucsess: qqer coisa (LogFileMixin)
+salavando logError: qqer coisa (LogFileMixin)
+salavando logSucsess: qqer coisa (LogFileMixin)
+salavando log
+Error: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: qqer coisa (LogFileMixin)
+salavando log
+Error: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: qqer coisa (LogFileMixin)
+salavando log
+Error: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: qqer coisa (LogFileMixin)
+salavando log
+Error: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: qqer coisa (LogFileMixin)
+salavando log
+Error: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: qqer coisa (LogFileMixin)
+salavando log
+Error: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: qqer coisa (LogFileMixin)
+salavando log
+Sucsess: Galaxy S está ligado (Smartphone)
+salavando log
+Sucsess: Iphone está ligado (Smartphone)
+salavando log
+Sucsess: Galaxy S está desligado (Smartphone)
+salavando log
+Sucsess: Iphone está desligado (Smartphone)

@@ -1,0 +1,52 @@
+Desafio: Simulação de Propagação Viral
+Objetivo
+Construir uma simulação visual da propagação de um vírus em uma população de células, 
+utilizando pygame, turtle ou outra biblioteca gráfica equivalente.
+
+Regras da Simulação
+Movimento e infecção
+
+Cada célula se move livremente pelo ambiente de forma aleatória.
+Quando uma célula saudável encosta em uma célula infectada, ela tem $MORTALIDADE% de chance de ser infectada.
+Ciclo da infecção
+
+Uma célula permanece infectada durante $TEMPO_INFECTADO.
+Ao fim desse período, ela tem $MORTALIDADE% de chance de morrer.
+Sobrevivendo, torna-se imune por $TEMPO_IMUNE e, em seguida, volta ao estado saudável.
+Reprodução
+
+Quando duas células saudáveis se encontram, há $FERTILIDADE% de chance de gerarem uma nova célula.
+A célula recém-nascida começa imune, com tempo de imunidade aumentado em relação ao $TEMPO_IMUNE padrão.
+Envelhecimento
+
+Cada célula possui uma idade e morre naturalmente ao atingir $EXPECTATIVA_VIDA, garantindo renovação populacional.
+Condições iniciais e meta
+
+População inicial: 100 células.
+Ajustar as $VARIAVEIS de modo que a população se mantenha estável, com no mínimo 5 saudáveis e 5 infectadas simultaneam
+Níveis de Dificuldadeente.
+Nível 1 — Fundamentos
+Manter a população estável por pelo menos 5 minutos.
+Ambiente fixo de 800×600 pixels.
+Bordas sólidas: as células colidem com os limites da tela e não podem sair.
+
+Nível 2 — Visualização e ambiente toroidal
+Exibir um gráfico em tempo real mostrando a evolução das populações saudável, infectada e imune ao longo do tempo.
+Permitir que o usuário redimensione a janela, com as células se adaptando ao novo espaço.
+Implementar bordas toroidais: ao sair por um lado, a célula reaparece no lado oposto (esquerda↔️direita e cima↔️baixo).
+
+Nível 3 — Configuração e controle
+Adicionar um menu inicial onde o usuário define $MORTALIDADE, $TEMPO_INFECTADO, $TEMPO_IMUNE e $FERTILIDADE antes de iniciar.
+Permitir salvar e carregar configurações para comparar diferentes cenários.
+Botões para pausar e acelerar o tempo nas velocidades 1x, 2x, 5x e 10x.
+Adicionar um quadrado fixo no centro da tela funcionando como parede sólida — as células não podem atravessá-lo.
+
+Nível 4 — Otimização e análise de dados
+Otimizar a simulação para suportar até 1000 células sem perda de desempenho (estruturas espaciais para colisão, 
+vetorização com NumPy, renderização eficiente, etc.).
+Exportar dados das populações ao longo do tempo em formato CSV para análise externa.
+Gerar visualizações com Pandas + Matplotlib (ou equivalente), incluindo um heatmap que mostre, 
+a partir dos dados exportados, as regiões da tela onde houve maior concentração de contágios e reproduções ao longo do tempo.
+
+Nivel 5 - Usando Sockets, crie um programa que, quando rodando ao mesmo tempo que a simulação, 
+mostre os gráficos, estatisticas, e graficos em tempo real, se comunicando diretamente com a simulação principal

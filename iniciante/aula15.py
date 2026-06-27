@@ -1,0 +1,5 @@
+#nome = input('qual seu nome?\n resposta:')
+#print (f'{nome=}!')
+numero1 = input(('digite um número:\n resposta:'))
+numero2 = input('digite outro número:\n resposta:')
+print(f'a soma dos dois é {float(numero1)+float(numero2):.2f} ')
