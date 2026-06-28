@@ -1,2 +1,2 @@
 # Estudos2026
-Estudos de Python e Django
+Estudos de Python, Django e SQL
