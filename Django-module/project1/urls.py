@@ -16,21 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
+from blog import views as blog_views
+from home import views as home_views
 
 
-def home(request):
-    print('HOME')
-    return HttpResponse('HOME!')
-
-
-def blog(request):
-    print('oq ser qq vai printar?')
-    return HttpResponse('blog')
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', blog),
-    path('', home),
+    path('blog/', blog_views.blog),
+    path('', home_views.home),
 ]
